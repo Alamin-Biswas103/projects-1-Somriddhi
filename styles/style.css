@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Common Design */
+.silver-btn{
+    background: #e6bbbb4f;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.donate-btn{
+    background: rgb(61, 202, 61);
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+
+#home-page{
+    background-image: url(../images/support-7965543_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    
+}
+
+.home-page-child{
+    background-color: rgba(21, 255, 0, 0.322);
+    padding: 50px 0 5px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-left img{
+    height: 100px;
+    width: 100px;
+}
+
+.nav-right ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3vmax;
+}
+
+.banner{
+    text-align: center;
+    /* display: flex; */
+    margin: 10% 20%;
+    display: grid;
+    gap: 20px;
+
+}
+
+.banner div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.banner-slogan{
+    font-size: 2rem;
+}
